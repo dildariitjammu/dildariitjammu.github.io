@@ -141,7 +141,7 @@ span.highlight {
 }
 
 #institute-logos img {
-  width: 90px;
+  width: 70px;
   height: auto;
   opacity: 0.9;
   transition: 0.3s;
@@ -158,3 +158,4 @@ span.highlight {
     width: 45px;
   }
 }
+
