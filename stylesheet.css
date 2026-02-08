@@ -131,19 +131,21 @@ span.highlight {
 }
 
 #institute-logos {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;          /* 👈 LEFT side */
   display: flex;
-  gap: 20px;
+  gap: 12px;
   align-items: center;
-  justify-content: flex-start;  /* left aligned */
-  margin-top: 10px;
+  z-index: 1000;
 }
 
 #institute-logos img {
-  width: 90px;   /* big logos */
+  width: 90px;
   height: auto;
   opacity: 0.9;
+  transition: 0.3s;
 }
-
 
 #institute-logos img:hover {
   opacity: 1;
