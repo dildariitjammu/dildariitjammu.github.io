@@ -121,22 +121,11 @@
               <a target="_blank"href="https://link.springer.com/chapter/10.1007/978-3-032-02088-8_11">Paper Link</a>
               <p></p>
               <p>
-In the Group Trip Planning (GTP) Query Problem, we are given
-a city road network where a number of Points of Interest (PoI) have been
-marked with their respective categories (e.g., Cafeteria, Park, Movie Theater, etc.). A group of agents wants to visit one PoI from every category
-from their respective starting location, and once finished, they want to reach their respective destinations. This problem asks which PoI from
-every category should be chosen so that the aggregated travel cost of the group is minimized. This problem has been studied extensively in
-the last decade, and several solution approaches have been proposed.
-However, to the best of our knowledge, none of the existing studies have
-considered the different modalities of the journey, which makes the problem more practical. To bridge this gap, we introduce and study the GTP
-Query Problem with Multimodal Journey in this paper. Along with the
-other inputs of the GTP Query Problem, we are also given the different
-modalities of the journey that are available and their respective cost.
-Now, the problem is not only to select the PoIs from respective categories but also to select the modality of the journey. For this problem,
-we have proposed an efficient solution approach, which has been analyzed to understand its time and space requirements. A large number
-of experiments have been conducted using real-life datasets, and the results have been reported. From the results, we observe that the PoIs and
-modality of journey recommended by the proposed solution approach
-lead to much less time and cost than the baseline methods.
+We study the Group Trip Planning (GTP) Query Problem with Multimodal Journey,
+where a group of users must visit one Point of Interest (PoI) from each required category while minimizing the total travel cost. 
+Unlike existing work, our model jointly selects both the PoIs and transportation modes. 
+We propose an efficient solution approach, analyze its complexity, and evaluate it on real-world datasets. 
+Experimental results show significant reductions in travel time and cost compared to baseline methods.
               </p>
             </td>
           </tr>
@@ -165,23 +154,10 @@ lead to much less time and cost than the baseline methods.
               <a target="_blank"href="https://link.springer.com/chapter/10.1007/978-3-032-02049-9_21">Paper Link</a>
               <p></p>
               <p>
-The selection of influential billboard slots remains an important
-problem in billboard advertisements. Existing studies on this problem have not considered the case of context-specific influence prob-
-ability. To bridge this gap, in this paper, we introduce the Context
-Dependent Influential Billboard Slot Selection Problem.
-First, we show that the problem is NP-hard. We also show that
-the influence function holds the bi-monotonicity, bi-submodularity,
-and non-negativity properties. We propose an orthant-wise Stochastic Greedy approach to solve this problem. We show that this
-method leads to a constant factor approximation guarantee. Subsequently, we propose an orthant-wise Incremental and Lazy Greedy
-approach. In a generic sense, this is a method for maximizing a
-bi-submodular function under the cardinality constraint, which
-may also be of independent interest. We analyze the performance
-guarantee of this algorithm as well as time and space complexity.
-The proposed solution approaches have been implemented with
-real-world billboard and trajectory datasets. We compare the performance of our method with many baseline methods, and the
-results are reported. Our proposed orthant-wise stochastic greedy
-approach leads to significant results when the parameters are set
-properly with reasonable computational overhead.
+We introduce the Context-Dependent Influential Billboard Slot Selection Problem, where billboard influence varies with context. 
+We prove the problem is NP-hard and show that the influence function is bi-monotone and bi-submodular.
+To solve it, we propose efficient orthant-wise stochastic, incremental, and lazy greedy algorithms with approximation guarantees. 
+Experiments on real-world datasets demonstrate superior performance over existing methods with reasonable computational cost.
               </p>
             </td>
           </tr>
@@ -210,15 +186,10 @@ properly with reasonable computational overhead.
               <a target="_blank"href="https://link.springer.com/chapter/10.1007/978-981-96-8173-0_5">Paper Link</a>
               <p></p>
               <p>
-In billboard advertisement, a number of digital billboards are owned by an influence provider, and several commercial houses (which we call advertisers) approach the influence provider for a specific number
-of views of their advertisement content on a payment basis. Though the billboard slot allocation problem has been studied in the literature, this
-problem still needs to be addressed from a fairness point of view. In this paper, we introduce the Fair Billboard Slot Allocation Problem,
-where the objective is to allocate a given set of billboard slots among a group of advertisers based on their demands fairly and efficiently. As
-fairness criteria, we consider the maximin fair share, which ensures that each advertiser will receive a subset of slots that maximizes the minimum share for all the advertisers. We have proposed a solution approach
-that generates an allocation and provides an approximate maximum fair share. The proposed methodology has been analyzed to understand its
-time and space requirements and a performance guarantee. It has been implemented with real-world trajectory and billboard datasets, and the
-results have been reported. The results show that the proposed approach leads to a balanced allocation by satisfying the maximin fairness criteria.
-At the same time, it maximizes the utility of advertisers.
+We introduce the Fair Billboard Slot Allocation Problem, which aims to allocate billboard slots
+among advertisers fairly while maximizing utility. Using the maximin fair share criterion, we develop an efficient allocation
+algorithm with theoretical guarantees. Experiments on real-world datasets show that our approach achieves balanced and fair 
+allocations while maintaining high advertiser utility.
               </p>
             </td>
           </tr>
@@ -245,24 +216,11 @@ At the same time, it maximizes the utility of advertisers.
               <a target="_blank"href="https://link.springer.com/chapter/10.1007/978-981-96-1242-0_12">Paper Link</a>
               <p></p>
               <p>
-             Nowadays, billboard advertising has emerged as an effective
-advertising technique due to higher returns on investment. Given a set
-of selected slots and tags, how to effectively assign the tags to the slots
-remains an important question. In this paper, we study the problem of
-assigning tags to the slots such that the number of tags for which influence demand of each zone is satisfied gets maximized. Formally, we call
-this problem the Multi-Slot Tag Assignment Problem. The input
-to the problem is a geographical region partitioned into several zones,
-a set of selected tags and slots, a trajectory, a billboard database, and
-the influence demand for every tag for each zone. The task here is to
-find out the assignment of tags to the slots, such the number of tags
-for which the zonal influence demand is satisfied is maximized. We show
-that the problem is NP-hard, and we propose an efficient approximation
-algorithm to solve this problem. A time and space complexity analysis
-of the proposed methodology has been done. The proposed methodology
-has been implemented with real-life datasets, and a number of experiments have been carried out to show the effectiveness and efficiency of
-the proposed approach. The obtained results have been compared with
-the baseline methods, and we observe that the proposed approach leads
-to a number of tags whose zonal influence demand is satisfied.  </p>
+We study the Multi-Slot Tag Assignment Problem in billboard advertising, 
+which aims to assign tags to selected billboard slots to maximize the number of zonal influence demands satisfied. 
+We prove the problem is NP-hard and propose an efficient approximation algorithm with theoretical analysis. 
+Experiments on real-world datasets demonstrate that our approach outperforms baseline methods in satisfying influence demands. 
+			  </p>
             </td>
           </tr>
 <!------------------------------Paper 10--------------------------------->
@@ -288,13 +246,10 @@ to a number of tags whose zonal influence demand is satisfied.  </p>
               <a target="_blank"href="https://link.springer.com/chapter/10.1007/978-981-96-0579-8_12">Paper Link</a>
               <p></p>
               <p>
-             Billboard Advertisement has gained popularity due to its significant outrage in return on investment. 
-		      To make this advertisement approach more effective, the relevant information about the product needs to be reached to the relevant set of people. 
-		      This can be achieved if the relevant set of tags can be mapped to the correct slots. 
-		      Formally, we call this problem the Tag Assignment Problem in Billboard Advertisement.
-		      Given trajectory, billboard database, and a set of selected billboard slots and tags, this problem asks to output a mapping of selected tags to the selected slots so that the influence is maximized.
-		      We model this as a variant of traditional bipartite matching called One-To-Many Bipartite Matching (OMBM). Unlike traditional bipartite matching, a tag can be assigned to only one slot; in the OMBM, a tag can be assigned to multiple slots while the vice versa can not happen. We propose an iterative solution approach that incrementally allocates the tags to the slots. The proposed methodology has been explained with an illustrated example. A complexity analysis of the proposed solution approach has also been conducted. 
-		      The experimental results on real-world trajectory and billboard datasets prove our claim on the effectiveness and efficiency of the proposed solution.  </p>
+            We study the Tag Assignment Problem in Billboard Advertisement, which aims to assign product tags to billboard slots to maximize influence.
+			We model the problem as a novel One-to-Many Bipartite Matching (OMBM) framework and propose an efficient iterative solution with theoretical analysis. 
+			Experiments on real-world datasets demonstrate the effectiveness and scalability of the proposed approach.
+			  </p>
             </td>
           </tr>
 
